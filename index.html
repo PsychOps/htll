@@ -9,13 +9,13 @@
     <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<section class="hero is-info is-medium">
-    <div class="hero-head">
-        <nav class="navbar">
-            <div class="container">
+<section class="hero is-purple is-medium">
+    <div class="hero-head" id="myHeader">
+        <nav class="navbar" style="background-color: #550a8a">
+            <div class="container" style="background-color: #550a8a">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="index.html">
-                        <h1 class="title">Leerlingenraad 't Tij</h1>
+                        <h1 class="title" style="color: white;">Leerlingenraad 't Tij</h1>
                     </a>
                     <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
@@ -26,7 +26,7 @@
                 <div id="navbarMenuHeroA" class="navbar-menu">
                     <div class="navbar-end">
                         <span class="hvr-grow-rotate navbar-item">
-              <a class="button is-info is-inverted" href="form.html">
+              <a class="button is-inverted" href="form.html">
                 <span class="icon">
                   <i class="fas fa-question-circle"></i>
                 </span>
@@ -34,7 +34,7 @@
               </a>
             </span>
                         <span class="hvr-grow-rotate navbar-item">
-              <a class="button is-info is-inverted" href="https://www.yulius.nl/locatie/het-tij/" target="_blank">
+              <a class="button is-inverted" href="https://www.yulius.nl/locatie/het-tij/" target="_blank">
                 <span class="icon">
                   <i class="fas fa-external-link-alt"></i>
                 </span>
@@ -42,7 +42,7 @@
               </a>
             </span>
                         <span class="hvr-grow-rotate navbar-item">
-              <a class="button is-info is-inverted" href="https://github.com/FlitzDev/hettijleerlingenraad" target="_blank">
+              <a class="button is-inverted" href="https://github.com/FlitzDev/hettijleerlingenraad" target="_blank">
                 <span class="hvr-grow-rotate icon">
                   <i class="fab fa-github"></i>
                 </span>
@@ -52,15 +52,31 @@
                     </div>
                 </div>
             </div>
+            <script>
+                    window.onscroll = function() {myFunction()};
+
+                    var header = document.getElementById("myHeader");
+                    var sticky = header.offsetTop;
+
+                    function myFunction() {
+                    if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+                }
+            </script>
         </nav>
     </div>
     <div class="hero-body">
         <div class="container has-text-centered">
-            <p class="title">
+            <p class="title" style="color: white;">
                 Over ons
             </p>
-            <p class="subtitler">
+            <p class="subtitle" style="color: white;">
                 De leerlingenraad van Het Tij bestaat uit leerlingen die hun toebehorende klassen vertegenwoordigen. Deze leerlingen zijn (vooral) democratisch gekozen door hun klassen. De leerlingenraad regelt meerdere binnen, en buiten school met toestemming van de directie.
+                <br/>
+                De leerlingenraad wordt vertegenwoordigt door <a href="mailto:ddehoogd@yuliusonderwijs.nl">meneer De Hoogd</a>.
             </p>
         </div>
     </div>
@@ -69,37 +85,53 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a href="#deelname" class="hvr-grow">Deelname</a>
+                        <a href="#deelname" class="hvr-grow" style="color: white;">Deelname</a>
                     </li>
                     <li>
-                        <a href="#anchor2" class="hvr-grow">Kop 2</a>
+                        <a href="#anchor2" class="hvr-grow" style="color: white;">Kop 2</a>
                     </li>
                     <li>
-                        <a href="#anchor3" class="hvr-grow">Kop 3</a>
+                        <a href="#anchor3" class="hvr-grow" style="color: white;">Kop 3</a>
                     </li>
                     <li>
-                        <a href="#anchor4" class="hvr-grow">Kop 4</a>
+                        <a href="#anchor4" class="hvr-grow" style="color: white;">Kop 4</a>
                     </li>
                     <li>
-                        <a href="#anchor5" class="hvr-grow">Kop 5</a>
+                        <a href="#anchor5" class="hvr-grow" style="color: white;">Kop 5</a>
                     </li>
                     <li>
-                        <a href="#anchor6" class="hvr-grow">Kop 6</a>
+                        <a href="#anchor6" class="hvr-grow" style="color: white;">Kop 6</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
 </section>
-<section class="hero">
+<section class="hero noselect">
     <div class="hero-body" id="deelname">
-        <p class="title">
-            Deelname in school
-        </p>
-        <a class="subtitle" id="protext">
-            De leerlingenraad neemt deel aan veel activiteiten en projecten binnen school en ook erbuiten. Met toestemming van de directie regelt de leerlingenraad dingen zoals een schoolkrant, versieren van school voor feestdagen en feestdagen binnen school zelf, en meer. De leerlingenraad neemt ook deel in het regelen van hoe delen van de school werken, en eruit zien. Iedereen kan naar een lid van de leerlingenraad komen met ideeën.
-        </a>
-        <hr style="color:gray;background-color:gray">
+        <div class="container has-text-centered">
+            <p class="title">
+                Deelname in school
+            </p>
+            <p class="subtitle" id="protext">
+                De leerlingenraad neemt deel aan veel activiteiten en projecten binnen school en ook erbuiten. Met toestemming van de directie regelt de leerlingenraad dingen zoals een schoolkrant, versieren van school voor feestdagen, feestdagen binnen school zelf en meer. De leerlingenraad neemt ook deel in het regelen van hoe delen van de school werken, en eruit zien. Iedereen kan naar een lid van de leerlingenraad komen met ideeën.
+            </p>
+        <hr style="color: #550a8a;background-color:#550a8a">
+            <p class="title">
+                Hoe werkt de leerlingenraad?
+            </p>
+        </div>
+    </div>
+</section>
+<section class="hero is-purple">
+    <div class="hero-body">
+        <div class="container has-text-centered" style="color: white;">
+            <p>
+                Website gemaakt door <a href="https://github.com/GlenntWebs">Glennt Web Development</a> en beheerd door <a href="https://yulius.nl/locatie/het-tij">Het Tij</a>
+                <br/> <br/>
+                Groenedijk 49 | 3311DB Dordrecht | TEL 088 405 40 60 | <a href="mailto:hettij@yuliusonderwijs.nl">hettij@yuliusonderwijs.nl</a>
+            </p>
+        </div>
     </div>
 </section>
 </body>
