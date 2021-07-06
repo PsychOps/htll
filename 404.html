@@ -24,79 +24,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <section class="container" id="RightPage">
-        <div class="container has-text-centered">
-            <h2 class="title h2">Deze pagina bestaat niet.</h2>
-            <h2 class="subtitle h2">Deze pagina bestaat niet! Het is mogelijk dat er een fout is ontstaan waardoor deze melding wordt gegeven, of de pagina zelf bestaat niet. Als u denkt dat er iets fout is gegaan, of denkt dat deze pagina er wel gewoon hoort te zijn, stuur dan een email en er zal snel naar gekeken worden.</h2>
-            <div class="container" id="MailTo">
-                <a class="button button-dark hvr-grow">
-                    <span class="icon">
-                        <i class="fas fa-at"></i>
-                    </span>
-                    <span>Mail naar joshuaslui0203@gmail.com</span>
-                </a>
-            </div>
-        </div>
-        <div class="container has-text-centered" style="margin-top: 20px">
-            <h2 class="title h2">Site map</h2>
-            <h2 class="subtitle h2">Dit is een lijst met alle content op deze website.</h2>
-            <h2 class="title is-4 h2">Pagina's</h2>
+<nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #1D1E23">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+            <p>Het Tij</p>
+        </a>
 
-            <a class="button button-dark" href="index.html">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="about.html">
                 <span class="icon">
-                    <i class="fas fa-home"></i>
+                <i class="fas fa-info-circle"></i>
                 </span>
-                <span>Home</span>
+                <span>Doelen</span>
             </a>
 
-            <a class="button button-dark" href="https://github.com/GlenntWebs/htll" target="_blank">
-                <span class="icon">
-                    <i class="fab fa-github"></i>
-                </span>
-                <span>Website repository</span>
-            </a>
-
-            <a class="button button-dark" href="form.html">
+            <a class="navbar-item" href="form.html">
                 <span class="icon">
                     <i class="fas fa-question-circle"></i>
                 </span>
                 <span>Contact</span>
             </a>
 
-            <a class="button button-dark" href="https://yulius.nl/locaties/het-tij" target="_blank">
-                <span class="icon">
-                    <i class="fas fa-globe-europe"></i>
-                </span>
-                <span>Website Het Tij</span>
-            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Meer
+                </a>
 
-            <h2 class="title is-4 h2" style="padding-top: 20px">Files</h2>
-
-            <a class="button button-dark" href="Yulius.png" target="_blank">
-                <span class="icon">
-                    <i class="fas fa-images"></i>
-                </span>
-                <span>Logo Yulius</span>
-            </a>
-
-            <a class="button button-dark" href="LICENSE">
-                <span class="icon">
-                    <i class="fas fa-file-contract"></i>
-                </span>
-                <span>Licentie (download begint automatisch)</span>
-            </a>
-
-            <a class="button button-dark" href="Hettij.jpg" target="_blank">
-                <span class="icon">
-                    <i class="fas fa-images"></i>
-                </span>
-                <span>Foto Het Tij</span>
-            </a>
-
+                <div class="navbar-dropdown" style="background-color: #1D1E23">
+                    <a class="navbar-item" href="legal.html">
+                        <span class="icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </span>
+                        <span>Legaal</span>
+                    </a>
+                    <a class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-tools"></i>
+                        </span>
+                        <span>Projecten</span>
+                    </a>
+                    <a class="navbar-item" href="https://medium.com/@joshuaslui0203/website-voor-leerlingenraad-het-tij-9aec79bd9123">
+                        <span class="icon">
+                            <i class="far fa-newspaper"></i>
+                        </span>
+                        <span>Nieuws</span>
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="mailto:joshuaslui0203@gmail.com">
+                        <span class="icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                        <span>Problemen met website?</span>
+                    </a>
+                </div>
+            </div>
         </div>
-    </section>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://www.yulius.nl/locatie/het-tij/">
+                        <strong>Website 't Tij</strong>
+                    </a>
+                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://github.com/GlenntWebs/htll">
+                        Website Repository
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="container has-text-centered">
+    <h2 class="title h2">404 - Page not found</h2>
+    <h2 class="subtitle h2">We konden deze pagina niet vinden. Als u denkt dat dit een fout is, meld het <a href="mailto:joshuaslui0203@gmail.com">hier</a>.<br/>U kunt ook terug naar de <a href="index.html">homepage</a> gaan, als u dit liever hebt.</h2>
+</section>
+
 </body>
-<footer class="footerstatic mobileHide">
+<footer class="footerstatic">
     <p>2021 © <a href="https://github.com/GlenntWebs">Glennt Web Development</a> & <a href="https://www.yulius.nl/locatie/het-tij/">Yulius Het Tij</a></p>
 </footer>
 </html>
