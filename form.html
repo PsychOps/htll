@@ -1,85 +1,115 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leerlingenraad het tij</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <meta property="og:title" content="Esquire website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://glenntwebs.github.io/esqweb/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/GlenntWebs/esqweb/main/Cubone.png" />
+    <meta property="og:description" content="The website for Esquire, A multifunctional bot that delivers the type of interaction, utility and moderation you want in your server." />
+    <meta name="theme-color" content="#131219">
+
+    <link rel="icon"
+          type="image/png"
+          href="Yulius.png">
+
+    <title>Esquire home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<section class="hero is-purple is-medium">
-    <div class="hero-head">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="index.html">
-                        <h1 class="title" style="color: white;">Leerlingenraad 't Tij</h1>
+<nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #1D1E23">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+            <p>Het Tij</p>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="about.html">
+                <span class="icon">
+                <i class="fas fa-info-circle"></i>
+                </span>
+                <span>Doelen</span>
+            </a>
+
+            <a class="navbar-item" href="form.html" target="_blank">
+                <span class="icon">
+                    <i class="fas fa-question-circle"></i>
+                </span>
+                <span>Contact</span>
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Meer
+                </a>
+
+                <div class="navbar-dropdown" style="background-color: #1D1E23">
+                    <a class="navbar-item" href="legal.html">
+                        <span class="icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </span>
+                        <span>Legaal</span>
                     </a>
-                    <span class="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-                </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="navbar-end">
-                        <!--
-                        <span class="navbar-item">
-              <a class="button is-info is-inverted">
-                <span class="icon">
-                  <i class="fas fa-question-circle"></i>
-                </span>
-                <span>Contactformulier</span>
-              </a>
-            </span>
-            -->
-                        <span class="hvr-grow-rotate navbar-item">
-              <a class="button" href="https://www.yulius.nl/locatie/het-tij/" target="_blank">
-                <span class="icon">
-                  <i class="fas fa-external-link-alt"></i>
-                </span>
-                <span>Website 't Tij</span>
-              </a>
-            </span>
-                        <span class="hvr-grow-rotate navbar-item">
-              <a class="button" href="https://github.com/FlitzDev/hettijleerlingenraad" target="_blank">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Repository</span>
-              </a>
-            </span>
-                    </div>
+                    <a class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-tools"></i>
+                        </span>
+                        <span>Projecten</span>
+                    </a>
+                    <a class="navbar-item" href="https://medium.com/@joshuaslui0203/website-voor-leerlingenraad-het-tij-9aec79bd9123">
+                        <span class="icon">
+                            <i class="far fa-newspaper"></i>
+                        </span>
+                        <span>Nieuws</span>
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="mailto:joshuaslui0203@gmail.com">
+                        <span class="icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                        <span>Problemen met website?</span>
+                    </a>
                 </div>
             </div>
-        </nav>
-    </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <p class="title" style="color: white;">
-                Contact opnemen
-            </p>
-            <p class="subtitle" style="color: white;">
-                Je kan het contactformulier hier gebruiken om contact op te nemen met de leerlingenraad. Dit contactformulier kan worden gebruikt voor klachten, suggesties of problemen. Maak er geen misbruik van en vul ze goed in.
-            </p>
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://www.yulius.nl/locatie/het-tij/">
+                        <strong>Website 't Tij</strong>
+                    </a>
+                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://github.com/GlenntWebs/htll">
+                        Website Repository
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<section class="is-medium">
-    <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5916855.js" data-role="form" data-default-width="650px"></script>
-</section>
-<section class="hero is-purple">
-    <div class="hero-body">
-        <div class="container has-text-centered" style="color: white;">
-            <p>
-                Website gemaakt door <a href="https://github.com/GlenntWebs">Glennt Web Development</a> en beheerd door <a href="https://yulius.nl/locatie/het-tij">Het Tij</a>
-                <br/> <br/>
-                Groenedijk 49 | 3311DB Dordrecht | TEL 088 405 40 60 | <a href="mailto:hettij@yuliusonderwijs.nl">hettij@yuliusonderwijs.nl</a>
-            </p>
-        </div>
-    </div>
+</nav>
+<section class="container">
+    <section class="container">
+        <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5916855.js" data-role="form" data-default-width="650px"></script>
+    </section>
 </section>
 </body>
+<footer class="footerscroll">
+    <p>2021 © <a href="https://github.com/GlenntWebs">Glennt Web Development</a> & <a href="https://www.yulius.nl/locatie/het-tij/">Yulius Het Tij</a></p>
+</footer>
 </html>
