@@ -54,7 +54,7 @@
 <body>
 <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #1D1E23">
     <div class="navbar-brand" style="background-color: #1D1E23">
-        <a class="navbar-item" href="index.html">
+        <a class="navbar-item" href="index.php">
             <p>Het Tij</p>
         </a>
 
@@ -139,7 +139,10 @@
     </p>
 </div>
 </body>
+<!--
 <footer class="footerstatic">
     <p>2021 © <a href="https://github.com/GlenntWebs">Glennt Web Development</a> & <a href="https://www.yulius.nl/locatie/het-tij/">Yulius Het Tij</a></p>
 </footer>
+-->
+<?php include 'templates/footer.php';?>
 </html>
