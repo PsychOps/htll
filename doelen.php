@@ -13,7 +13,7 @@
           type="image/png"
           href="images/Yulius.png">
 
-    <title>htlr contact</title>
+    <title>htlr doelen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
