@@ -67,7 +67,7 @@
                         </span>
                         <span>Legaal</span>
                     </a>
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="projecten.php">
                         <span class="icon">
                             <i class="fas fa-tools"></i>
                         </span>
