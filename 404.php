@@ -30,7 +30,7 @@
             Als dit geen fout is, kunt u ook terug naar de homepage gaan.
         </h2>
 
-        <a class="button button-dark hvr-grow">Back to home</a>
+        <a class="button button-dark hvr-grow" href="index.php">Back to home</a>
     </section>
 </section>
 </body>
