@@ -9,127 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
     <meta charset="utf-8">
 
-    <meta property="og:title" content="Leerlingenraad Het Tij" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://glenntwebs.github.io/htll/" />
-    <meta property="og:image" content="https://github.com/GlenntWebs/htll/blob/main/images/Hettij.jpg?raw=true" />
-    <meta property="og:description" content="De leerlingenraad is een groep democratisch gekozen leerlingen die dingen regelen binnen en buiten school met toestemming van de school's directie." />
-    <meta name="theme-color" content="#0000FF">
-
     <link rel="icon"
           type="image/png"
           href="images/Yulius.png">
-
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Get all "navbar-burger" elements
-      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-      // Check if there are any navbar burgers
-      if ($navbarBurgers.length > 0) {
-
-        // Add a click event on each of them
-        $navbarBurgers.forEach( el => {
-          el.addEventListener('click', () => {
-
-            // Get the target from the "data-target" attribute
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-
-          });
-        });
-      }
-
-    });
-    </script>
 
     <title>Esquire home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #1D1E23">
-    <div class="navbar-brand" style="background-color: #1D1E23">
-        <a class="navbar-item" href="index.php">
-            <p>Het Tij</p>
-        </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
-    </div>
+<?php include 'templates/header.php';?>
 
-    <div id="navbarBasicExample" class="navbar-menu" style="background-color: #1D1E23">
-        <div class="navbar-start">
-            <a class="navbar-item" href="about.html">
-                <span class="icon">
-                <i class="fas fa-info-circle"></i>
-                </span>
-                <span>Doelen</span>
-            </a>
-
-            <a class="navbar-item" href="contact.html">
-                <span class="icon">
-                    <i class="fas fa-question-circle"></i>
-                </span>
-                <span>Contact</span>
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                    Meer
-                </a>
-
-                <div class="navbar-dropdown" style="background-color: #1D1E23">
-                    <a class="navbar-item" href="legaal.html">
-                        <span class="icon">
-                            <i class="fas fa-balance-scale"></i>
-                        </span>
-                        <span>Legaal</span>
-                    </a>
-                    <a class="navbar-item">
-                        <span class="icon">
-                            <i class="fas fa-tools"></i>
-                        </span>
-                        <span>Projecten</span>
-                    </a>
-                    <a class="navbar-item" href="https://medium.com/@joshuaslui0203/website-voor-leerlingenraad-het-tij-9aec79bd9123">
-                        <span class="icon">
-                            <i class="far fa-newspaper"></i>
-                        </span>
-                        <span>Nieuws</span>
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="mailto:joshuaslui0203@gmail.com">
-                        <span class="icon">
-                            <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span>Problemen met website?</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://www.yulius.nl/locatie/het-tij/">
-                        <strong>Website 't Tij</strong>
-                    </a>
-                    <a class="button button-dark hvr-grow-rotate" target="_blank" href="https://github.com/GlenntWebs/htll">
-                        Website Repository
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
 <div class="container has-text-centered">
     <h2 class="title h2">Over de leerlingenraad</h2>
     <p>De leerlingenraad van Het Tij bestaat uit leerlingen die hun toebehorende klassen vertegenwoordigen. Deze leerlingen zijn (vooral) democratisch gekozen door hun klassen. De leerlingenraad regelt meerdere binnen, en buiten school met toestemming van de directie.
@@ -144,5 +35,5 @@
     <p>2021 © <a href="https://github.com/GlenntWebs">Glennt Web Development</a> & <a href="https://www.yulius.nl/locatie/het-tij/">Yulius Het Tij</a></p>
 </footer>
 -->
-<?php include 'templates/footer.php';?>
+<?php include 'templates/footerstatic.php';?>
 </html>
