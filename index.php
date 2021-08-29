@@ -21,7 +21,7 @@
 
 <?php include 'templates/header.php';?>
 
-<div class="container has-text-centered">
+<div class="container has-text-centered" id="AboutHtlr">
     <h2 class="title h2">Over de leerlingenraad</h2>
     <p>De leerlingenraad van Het Tij bestaat uit leerlingen die hun toebehorende klassen vertegenwoordigen. Deze leerlingen zijn (vooral) democratisch gekozen door hun klassen. De leerlingenraad regelt meerdere binnen, en buiten school met toestemming van de directie.
         De leerlingenraad wordt vertegenwoordigt door meneer De Hoogd.
