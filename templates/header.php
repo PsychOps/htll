@@ -41,7 +41,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu" style="background-color: #1D1E23">
         <div class="navbar-start">
-            <a class="navbar-item" href="about.php">
+            <a class="navbar-item" href="doelen.php">
                 <span class="icon">
                 <i class="fas fa-info-circle"></i>
                 </span>
