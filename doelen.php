@@ -20,6 +20,8 @@
 
 <?php include 'templates/header.php';?>
 
+<?php include 'templates/wip.php';?>
+
 </body>
 <?php include 'templates/footerstatic.php';?>
 </html>
