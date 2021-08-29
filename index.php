@@ -30,10 +30,6 @@
     </p>
 </div>
 </body>
-<!--
-<footer class="footerstatic">
-    <p>2021 © <a href="https://github.com/GlenntWebs">Glennt Web Development</a> & <a href="https://www.yulius.nl/locatie/het-tij/">Yulius Het Tij</a></p>
-</footer>
--->
+
 <?php include 'templates/footerstatic.php';?>
 </html>
