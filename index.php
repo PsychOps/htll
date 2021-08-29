@@ -13,7 +13,7 @@
           type="image/png"
           href="images/Yulius.png">
 
-    <title>Esquire home</title>
+    <title>htlr home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
