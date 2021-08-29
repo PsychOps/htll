@@ -74,7 +74,7 @@
                         <span>Projecten</span>
                     </a>
                     <hr class="navbar-divider">
-                    <a class="navbar-item" href="mailto:joshuaslui0203@gmail.com">
+                    <a class="navbar-item" href="mailto:modraxisorg@gmail.com">
                         <span class="icon">
                             <i class="fas fa-exclamation-triangle"></i>
                         </span>

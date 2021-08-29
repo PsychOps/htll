@@ -25,7 +25,7 @@
     <section class="container has-text-centered">
         <h2 class="h2 title">404 - Pagina niet gevonden.</h2>
         <h2 class="h2">
-            Als u denkt dat dit een fout aan onze kant is, stuur alstublieft een email naar <a href="mailto:joshuaslui0203@gmail.com;ddehoogd@yuliusonderwijs.nl">joshuaslui0203@gmail.com</a>. Er zal dan snel iemand naar kijken.
+            Als u denkt dat dit een fout aan onze kant is, stuur alstublieft een email naar <a href="mailto:modraxisorg@gmail.com;ddehoogd@yuliusonderwijs.nl">modraxisorg@gmail.com</a>. Er zal dan snel iemand naar kijken.
             <br/>
             Als dit geen fout is, kunt u ook terug naar de homepage gaan.
         </h2>
